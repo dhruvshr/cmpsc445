@@ -68,6 +68,6 @@
             - Model robustness: it helps identify how well the model generalizes to different data distribtuions, leading to better model selection and hyperparameter tuning.
 
     - Supervised Learning Algorithms
-        - Linear Regression: `
+        - Linear Regression:
 
                 
