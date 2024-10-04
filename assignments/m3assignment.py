@@ -22,15 +22,13 @@ iris_data = np.c_[iris.data, ['Iris-' + iris.target_names[i] for i in iris.targe
 iris_columns = iris.feature_names + ['class']
 dataset = pd.DataFrame(data=iris_data, columns=iris_columns)
 
-print(dataset.head(20))
+print(dataset.head())
 
 """
 Partitioning Levels
 A -> Training Set Size: 075 , Testing Set Size: 75
 B -> Training Set Size: 100 , Testing Set Size: 50
 C -> Training Set Size: 125 , Testing Set Size: 25
-"""
-
 """
 
 
@@ -67,5 +65,3 @@ print("Results:")
 print(f"Testset Size      : {testset_size}")
 print(f"Correct Preditions: {correct_predictions}")
 print(f"Accuracy Percent  : {accuracy_percentage:.3f}%")
-
-"""
