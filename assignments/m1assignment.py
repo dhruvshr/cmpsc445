@@ -38,5 +38,3 @@ if __name__ == "__main__":
     Mn[0] = [i*n for i in Mn[0]]
     
     Mo = matrixMultiply(M, O)
-
-    
