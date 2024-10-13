@@ -167,6 +167,9 @@ include/
 lib/
 share/
 
+# mnist data
+assignments/data/
+
 pyvenv.cfg
 .DS_Store
 
