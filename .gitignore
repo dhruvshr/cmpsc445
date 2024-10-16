@@ -123,7 +123,7 @@ celerybeat.pid
 
 # Environments
 .env
-.venv
+.venv/
 env/
 venv/
 ENV/
@@ -161,13 +161,16 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+# vscode configuration
+.vscode/
+
 # personal venv files to ignore
 bin/
 include/
 lib/
 share/
 
-# mnist data
+# datasets
 assignments/data/
 
 pyvenv.cfg
